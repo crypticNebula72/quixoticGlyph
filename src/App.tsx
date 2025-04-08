@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import { useEffect } from "react";
 
 import { Files, Home } from "./pages";
@@ -16,13 +16,16 @@ const App = () => {
 
   return (
     <SidebarProvider>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/main" element={<Files />}>
-          <Route index element={<File />} />
-          <Route path="*" element={<File />} />
-        </Route>
-      </Routes>
+      {/* Wrap with HashRouter */}
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/main" element={<Files />}>
+            <Route index element={<File />} />
+            <Route path="*" element={<File />} />
+          </Route>
+        </Routes>
+      </HashRouter>
     </SidebarProvider>
   );
 };
