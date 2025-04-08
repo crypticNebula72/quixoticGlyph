@@ -17,7 +17,7 @@ const Path = ({ path }: PathProps) => {
     <div className="mb-6 flex h-5 flex-row items-center space-x-1">
       {!sidebarOpen && (
         <Button
-          imagePath="/github-portfolio/assets/collapse_open.svg"
+          imagePath="/assets/collapse_open.svg"
           imageAltText="collapse_open"
           onClick={() => {
             toggleSidebar(true);
@@ -72,15 +72,15 @@ const Path = ({ path }: PathProps) => {
             }}
             className="flex size-7 items-center justify-center rounded-md hover:bg-gray-collapsehover"
           >
-            {copyImage === "/github-portfolio/assets/copy.svg" ? (
+            {copyImage === "/assets/copy.svg" ? (
               <img
-                src="/github-portfolio/assets/copy.svg"
+                src="/assets/copy.svg"
                 alt="copy"
                 className="size-4"
               />
             ) : (
               <img
-                src="/github-portfolio/assets/check.svg"
+                src="/assets/check.svg"
                 alt="check"
                 className="size-4"
               />

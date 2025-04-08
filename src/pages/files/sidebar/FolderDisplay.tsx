@@ -42,7 +42,7 @@ const FolderDisplay = ({
           className="rounded-md p-1 hover:bg-gray-chevronhover"
         >
           <img
-            src={`/github-portfolio/assets/chevron_${
+            src={`/assets/chevron_${
               openFolders.includes(name) ? "open" : "closed"
             }.svg`}
             alt={`${openFolders.includes(name) ? "open" : "closed"}`}
@@ -51,7 +51,7 @@ const FolderDisplay = ({
         </button>
         <div className="flex flex-row items-center space-x-2 py-1">
           <img
-            src={`/github-portfolio/assets/folder${
+            src={`/assets/folder${
               openFolders.includes(name) ? "_open" : ""
             }.svg`}
             alt={`folder${openFolders.includes(name) ? "_open" : ""}`}

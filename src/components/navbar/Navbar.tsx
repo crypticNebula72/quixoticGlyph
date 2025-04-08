@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="flex flex-row space-x-2 border-b-[1px] border-b-gray-border pl-4">
         <Tab
           title="Code"
-          imagePath="/github-portfolio/assets/code.svg"
+          imagePath="/assets/code.svg"
           selected
         />
       </ul>

@@ -15,7 +15,7 @@ const FileDisplay = ({ name, depth, path, curPathItem }: FileDisplayProps) => {
       className={`flex w-full flex-row items-center space-x-2 rounded-md py-1 hover:bg-gray-collapsehover ${curPathItem === name ? "bg-gray-collapseopen hover:bg-gray-collapseopen" : ""}`}
     >
       <img
-        src="/github-portfolio/assets/file.svg"
+        src="/assets/file.svg"
         alt="file"
         className="size-4"
       />

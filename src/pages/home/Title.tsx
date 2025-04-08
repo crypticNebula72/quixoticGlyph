@@ -7,7 +7,7 @@ const Title = () => {
         <div className="flex flex-row items-center">
           <div className="flex flex-row items-center space-x-2">
             <img
-              src="/github-portfolio/assets/profile.png"
+              src="/assets/profile.png"
               alt="profile"
               className="size-6 rounded-full border-[1px] border-gray-border"
             />
@@ -27,7 +27,7 @@ const Title = () => {
         </div>
         <div className="flex flex-row space-x-2 sm:justify-end">
           <Button
-            imagePath="/github-portfolio/assets/gmail.svg"
+            imagePath="/assets/gmail.svg"
             imageAltText="gmail"
             imageStyles="size-5"
             onClick={() => {
@@ -35,7 +35,7 @@ const Title = () => {
             }}
           />
           <Button
-            imagePath="/github-portfolio/assets/github.svg"
+            imagePath="/assets/github.svg"
             imageAltText="github"
             imageStyles="size-5"
             onClick={() => {
@@ -46,7 +46,7 @@ const Title = () => {
             }}
           />
           <Button
-            imagePath="/github-portfolio/assets/linkedin.svg"
+            imagePath="/assets/linkedin.svg"
             imageAltText="linkedin"
             imageStyles="size-5"
             onClick={() => {

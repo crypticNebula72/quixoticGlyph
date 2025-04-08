@@ -11,13 +11,13 @@ const HeaderLeft = () => {
           setMode(newMode);
           document.body.classList.replace(mode, newMode);
         }}
-        imagePath={`/github-portfolio/assets/${mode}.svg`}
+        imagePath={`/assets/${mode}.svg`}
         imageAltText={mode}
         imageStyles="size-4"
         buttonStyles="px-1.5 bg-primary-100 mr-2"
       /> */}
       <img
-        src="/github-portfolio/assets/logo.png"
+        src="/assets/logo.png"
         alt="logo"
         className="size-8"
       />

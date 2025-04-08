@@ -6,7 +6,7 @@ const useFile = () => {
     width: window.innerWidth,
   });
   const [copyImage, setCopyImage] = useState(
-    "/github-portfolio/assets/copy.svg",
+    "/assets/copy.svg",
   );
   const [fileContents, setFileContents] = useState<string | null>(null);
 
@@ -35,9 +35,9 @@ const useFile = () => {
 
   const copyImageClick = () => {
     const handleCopyImage = () => {
-      setCopyImage("/github-portfolio/assets/check.svg");
+      setCopyImage("/assets/check.svg");
       const timeoutId = setTimeout(() => {
-        setCopyImage("/github-portfolio/assets/copy.svg");
+        setCopyImage("/assets/copy.svg");
       }, 3000);
 
       return () => {

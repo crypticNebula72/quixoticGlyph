@@ -13,12 +13,12 @@ const Header = () => {
         />
         <div className="hidden flex-row space-x-3 md:flex lg:flex">
           <div className="flex flex-row items-center space-x-1">
-            <img src="/github-portfolio/assets/branch.svg" alt="branch" />
+            <img src="/assets/branch.svg" alt="branch" />
             <h1 className="text-sm font-bold text-secondary">1</h1>
             <h1 className="text-sm text-gray">Branch</h1>
           </div>
           <div className="flex flex-row items-center space-x-1">
-            <img src="/github-portfolio/assets/tags.svg" alt="tags" />
+            <img src="/assets/tags.svg" alt="tags" />
             <h1 className="text-sm text-gray">Tags</h1>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Header = () => {
               "_blank",
             )
           }
-          imagePath="/github-portfolio/assets/code_secondary.svg"
+          imagePath="/assets/code_secondary.svg"
           imageAltText="code"
           text="Code"
           textStyles={

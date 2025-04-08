@@ -61,7 +61,7 @@ AI Developer and Data Analyst with a proven track record of applying machine lea
 
 ## 📄 Resume
 
-Check out my full [resume](/github-portfolio/main/resume.pdf) for more information!
+Check out my full [resume](/main/resume.pdf) for more information!
 
 ---
 

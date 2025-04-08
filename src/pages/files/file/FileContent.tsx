@@ -42,7 +42,7 @@ const FileContent = ({ curItem, curParent, path }: FileContentProps) => {
                     onClick={() => {
                       window.open(link, "_blank");
                     }}
-                    imagePath="/github-portfolio/assets/github.svg"
+                    imagePath="/assets/github.svg"
                     imageAltText="github"
                     imageStyles="size-4"
                     text={
@@ -55,9 +55,9 @@ const FileContent = ({ curItem, curParent, path }: FileContentProps) => {
               })}
             <Button
               onClick={() => {
-                download(`/github-portfolio/portfolio${path}`, curItem.name);
+                download(`/portfolio${path}`, curItem.name);
               }}
-              imagePath="/github-portfolio/assets/download.svg"
+              imagePath="/assets/download.svg"
               imageAltText="download"
               imageStyles="size-4"
               height={28}
@@ -69,28 +69,28 @@ const FileContent = ({ curItem, curParent, path }: FileContentProps) => {
           {curItem.type === "file" ? (
             curItem.file_type === "pdf" ? (
               <Pdf
-                filepath={`/github-portfolio/portfolio${path}`}
+                filepath={`/portfolio${path}`}
                 height={dimensions.height - headerHeight}
               />
             ) : curItem.file_type === "markdown" ? (
               <MarkdownFile
-                filepath={`/github-portfolio/portfolio${path}`}
+                filepath={`/portfolio${path}`}
                 styles="sm:mx-40"
               />
             ) : curItem.file_type === "video" ? (
               <Video
-                filepath={`/github-portfolio/portfolio${path}`}
+                filepath={`/portfolio${path}`}
                 height={dimensions.height - headerHeight}
                 orientation={curItem.orientation}
               />
             ) : curItem.file_type === "ipynb" ? (
               <IpynbFile
-                filepath={`/github-portfolio/portfolio${path}`}
+                filepath={`/portfolio${path}`}
                 styles="sm:mx-20" // Adjust styles as needed
               />
             ) : curItem.file_type === "py" ? (
               <PyFile
-                filepath={`/github-portfolio/portfolio${path}`}
+                filepath={`/portfolio${path}`}
                 styles="sm:mx-40" // Adjust styles as needed
               />
             ) : (

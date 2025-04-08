@@ -13,7 +13,7 @@ const ContentHeaderTag = ({ image, text, styles }: ContentHeaderTagProps) => {
   return (
     <div className={`flex flex-row items-center space-x-1 ${styles}`}>
       <img
-        src={`/github-portfolio/assets/${image}.svg`}
+        src={`/assets/${image}.svg`}
         alt={image}
         className="size-4"
       />
@@ -27,7 +27,7 @@ const ContentHeader = () => {
     <div className="flex flex-row items-center space-x-4">
       <div className="flex flex-row items-center space-x-2">
         <img
-          src="/github-portfolio/assets/profile.png"
+          src="/assets/profile.png"
           alt="profile"
           className="size-5 rounded-full border-[1px] border-gray-border"
         />

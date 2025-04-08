@@ -6,7 +6,7 @@ const Readme = () => {
       <div className="flex h-[48px] flex-row items-center rounded-t-md border-b-[1px] border-b-gray-border pl-2">
         <div className="flex h-full flex-row items-center space-x-2 border-b-[2px] border-b-orange px-2">
           <img
-            src="/github-portfolio/assets/book.svg"
+            src="/assets/book.svg"
             alt="book"
             className="size-4"
           />
@@ -14,7 +14,7 @@ const Readme = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <MarkdownFile filepath="/github-portfolio/portfolio/main/README.md" />
+        <MarkdownFile filepath="/portfolio/main/README.md" />
       </div>
     </div>
   );
