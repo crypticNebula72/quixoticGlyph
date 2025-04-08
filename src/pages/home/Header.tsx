@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex flex-row items-center space-x-3">
         <Button
           onClick={() => {}}
-          imagePath="/github-portfolio/assets/branch.svg"
+          imagePath="/assets/branch.svg"
           imageAltText="branch"
           text="main"
           buttonStyles="hover:bg-gray-100 hover:cursor-default"
