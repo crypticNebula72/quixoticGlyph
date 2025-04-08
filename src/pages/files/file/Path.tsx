@@ -14,7 +14,7 @@ const Path = ({ path }: PathProps) => {
   let curPath = "/main";
 
   return (
-    <div className="mb-6 flex h-5 flex-row items-center space-x-1">
+    <div className="mb-6 w-full flex h-5 flex-row items-center space-x-1">
       {!sidebarOpen && (
         <Button
           imagePath="/assets/collapse_open.svg"
@@ -36,21 +36,21 @@ const Path = ({ path }: PathProps) => {
         </Link>
       </button>
       {path[0] === "/main" ? (
-        <h1 className="text-base text-gray">/</h1>
+        <h1 className="text-base text-ellipsis text-gray">/</h1>
       ) : (
-        <div className="flex flex-row items-center space-x-1">
+        <div className="flex flex-row w-5 md:w-full items-center space-x-1 ">
           {path.map((item, index) => {
             let pathTag;
             curPath += `/${item}`;
             if (index === path.length - 1) {
               pathTag = (
-                <h1 className="text-base font-bold text-secondary">{item}</h1>
+                <h1 className="text-base hidden md:flex text-ellipsis font-bold text-secondary">{item}</h1>
               );
             } else {
               pathTag = (
                 <Link
                   to={curPath}
-                  className="text-base text-blue hover:underline"
+                  className="text-base text-ellipsis text-blue hover:underline"
                 >
                   {item}
                 </Link>

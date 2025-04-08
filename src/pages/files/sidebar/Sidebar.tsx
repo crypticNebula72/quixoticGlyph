@@ -6,8 +6,8 @@ const Sidebar = () => {
   const { toggleSidebar } = useSidebarContext();
 
   return (
-    <div className="h-full min-h-screen w-[200px] border-r-[1px] border-r-gray-border p-4 sm:w-[390px]">
-      <div className="flex flex-row items-center space-x-2">
+    <div className="max-sm:absolute bg-[#0A0C10] h-full min-h-screen w-[200px] border-r-[1px] border-r-gray-border p-4 sm:w-[390px]">
+      <div className=" md:flex flex-row items-center space-x-2">
         <Button
           imagePath="/assets/collapse.svg"
           imageAltText="collapse"

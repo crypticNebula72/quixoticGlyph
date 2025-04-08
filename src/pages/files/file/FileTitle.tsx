@@ -14,7 +14,7 @@ const FileTitle = ({ path, commit, date }: FileTitleProps) => {
           className="mr-2 size-5"
         />
         <h1 className="text-sm font-bold text-secondary">Abhay Singhal</h1>
-        <h1 className="truncate whitespace-nowrap px-2 text-sm text-gray">
+        <h1 className="truncate max-sm:max-w-24 md:whitespace-nowrap px-2 text-sm text-gray">
           {path[0] === "/main" ? "initial commit" : commit}
         </h1>
       </div>

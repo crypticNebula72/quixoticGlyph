@@ -6,10 +6,10 @@
     "date": "2020 - present",
     "contents": [
       {
-        "name": "amit_suppliers_data_scientist",
+        "name": "amit_suppliers_ds",
         "type": "folder",
         "commit": "Data Scientist | Machine Learning, Predictive Analytics",
-        "date": "January 2024 – March 2025",
+        "date": "Jan 2024 – Mar 2025",
         "contents": [
           {
             "name": "customer_insights_analysis.md",
@@ -56,10 +56,10 @@
         ]
       },
       {
-        "name": "om_bhagawati_traders_ds",
+        "name": "om_bhagawati_ds",
         "type": "folder",
         "commit": "Data Scientist | AI-Driven Sales Forecasting, Customer Dema",
-        "date": "September 2021 – November 2023",
+        "date": "Sep 2021 – Nov 2023",
         "contents": [
           {
             "name": "ai_sales_forecast.md",
@@ -92,10 +92,10 @@
         ]
       },
       {
-        "name": "om_bhagawati_traders_fe",
+        "name": "om_bhagawati_fe",
         "type": "folder",
         "commit": "Front-End Developer | Responsive Design, UI/UX",
-        "date": "January 2020 – September 2021",
+        "date": "Jan 2020 – Sep 2021",
         "contents": [
           {
             "name": "responsive_ui.md",

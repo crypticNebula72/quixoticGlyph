@@ -63,7 +63,7 @@ const FolderDisplay = ({
       {openFolders.includes(name) && contents && (
         <div key={name}>
           {contents.map((content) => (
-            <div key={content.name}>
+            <div key={content.name} className="text-ellipsis">
               {content.type === "folder" ? (
                 <FolderDisplay
                   name={content.name}
