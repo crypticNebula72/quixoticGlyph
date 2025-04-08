@@ -54,7 +54,7 @@ const IpynbFile = ({ filepath, styles }: IpynbFileProps) => {
                           return null;
                         })
                         .filter(Boolean)
-                        .map((item, i) => (
+                        .map((item: string | JSX.Element, i: number) => (
                           <div key={i}>{item}</div>
                         ))}
                     </pre>
