@@ -16,14 +16,14 @@
             .split("/")
             .slice(0, 1 + pathSegmentsToKeep)
             .join("/") +
-          "/?/" +
+          "/" + // Keep the slash and do not add any replacement
           l.pathname
             .slice(1)
             .split("/")
             .slice(pathSegmentsToKeep)
             .join("/") +
-          (l.search ? l.search : "") +  // No modification to the search/query string
-          l.hash,
+          (l.search ? l.search : "") + // Only add search if it exists
+          l.hash
       );
     </script>
   </head>
