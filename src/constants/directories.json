@@ -1,0 +1,246 @@
+[
+  {
+    "name": "experience",
+    "type": "folder",
+    "commit": "my professional journey",
+    "date": "2020 - present",
+    "contents": [
+      {
+        "name": "amit_suppliers_data_scientist",
+        "type": "folder",
+        "commit": "Data Scientist | Machine Learning, Predictive Analytics",
+        "date": "January 2024 – March 2025",
+        "contents": [
+          {
+            "name": "customer_insights_analysis.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Advanced Data Analysis, Customer Insights Generation",
+            "date": "Jan 2024 - Mar 2025"
+          },
+          {
+            "name": "etl_pipeline_python.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "ETL Pipeline Development, Python for Data Processing",
+            "date": "Jan 2024 - Mar 2025"
+          },
+          {
+            "name": "demand_prediction_model.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Predictive Modeling, Demand Prediction Accuracy",
+            "date": "Feb 2024 - Mar 2025"
+          },
+          {
+            "name": "kpi_reporting_powerbi.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "KPI Reporting Dashboard, Business Intelligence",
+            "date": "Jan 2024 - Mar 2025"
+          },
+          {
+            "name": "strategic_insights.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Strategic Insights Delivery, Business Alignment",
+            "date": "Feb 2024 - Mar 2025"
+          },
+          {
+            "name": "feature_engineering.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Feature Engineering Techniques for ML Models",
+            "date": "Jan 2024 - Mar 2025"
+          }
+        ]
+      },
+      {
+        "name": "om_bhagawati_traders_ds",
+        "type": "folder",
+        "commit": "Data Scientist | AI-Driven Sales Forecasting, Customer Dema",
+        "date": "September 2021 – November 2023",
+        "contents": [
+          {
+            "name": "ai_sales_forecast.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "AI-Driven Sales Forecasting, Customer Demand Analysis",
+            "date": "Sep 2021 - Nov 2023"
+          },
+          {
+            "name": "kpi_visualization.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "KPI Visualization, Data Interpretation for Stakeholders",
+            "date": "Oct 2021 - Nov 2023"
+          },
+          {
+            "name": "insights_for_leadership.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Actionable Insights for Leadership, Data-Driven Decisions",
+            "date": "Sep 2021 - Nov 2023"
+          },
+          {
+            "name": "time_series_analysis.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Time Series Analysis for Forecasting Trends",
+            "date": "Oct 2021 - Nov 2023"
+          }
+        ]
+      },
+      {
+        "name": "om_bhagawati_traders_fe",
+        "type": "folder",
+        "commit": "Front-End Developer | Responsive Design, UI/UX",
+        "date": "January 2020 – September 2021",
+        "contents": [
+          {
+            "name": "responsive_ui.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Responsive UI Development with React/Next.js",
+            "date": "Jan 2020 - Sep 2021"
+          },
+          {
+            "name": "performance_optimization.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Front-End Performance Optimization Techniques",
+            "date": "Feb 2020 - Aug 2021"
+          },
+          {
+            "name": "agile_contribution.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Contribution to Agile Development Sprints",
+            "date": "Jan 2020 - Sep 2021"
+          },
+          {
+            "name": "ui_component_library.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "Reusable UI Component Library Development",
+            "date": "Mar 2020 - Sep 2021"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "projects",
+    "type": "folder",
+    "commit": "my personal and work projects",
+    "date": "2019 - present",
+    "contents": [
+      {
+        "name": "ds",
+        "type": "folder",
+        "commit": "data science projects",
+        "date": "2020-present",
+        "contents": [
+          {
+            "name": "Card_activation.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "card activation prediction",
+            "date": "Jun 2020"
+          },
+          {
+            "name": "Collaborative_filtering.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "collaborative filtering analysis",
+            "date": "Jan 2025"
+          },
+          {
+            "name": "Fate_Zero_explore.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "Fate/Zero data exploration",
+            "date": "Sep 2022"
+          },
+          {
+            "name": "GGG.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "GGG analysis",
+            "date": "Apr 2024"
+          },
+          {
+            "name": "godville_stats.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "Godville game statistics analysis",
+            "date": "Dec 2020"
+          },
+          {
+            "name": "House_Prices.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "house price prediction analysis",
+            "date": "Jul 2023"
+          },
+          {
+            "name": "Imbalanced.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "handling imbalanced datasets",
+            "date": "Mar 2025"
+          },
+          {
+            "name": "Loan_Prediction.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "loan prediction modeling",
+            "date": "Nov 2023"
+          },
+          {
+            "name": "Otto_Group.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "Otto Group product classification",
+            "date": "May 2024"
+          },
+          {
+            "name": "Summarize.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "text summarization project",
+            "date": "Oct 2022"
+          },
+          {
+            "name": "Titanic.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "Titanic survival prediction",
+            "date": "Feb 2025"
+          },
+          {
+            "name": "Bag_of_Words.pdf",
+            "type": "file",
+            "file_type": "pdf",
+            "commit": "bag of words implementation",
+            "date": "Aug 2023"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "README.md",
+    "type": "file",
+    "file_type": "markdown",
+    "commit": "essentials of my portfolio",
+    "date": "March 31, 2025"
+  },
+  {
+    "name": "resume.pdf",
+    "type": "file",
+    "file_type": "pdf",
+    "commit": "seeking employment!",
+    "date": "April 8, 2025"
+  }
+]
