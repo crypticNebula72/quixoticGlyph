@@ -2,30 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>React Router</title>
+    <title>React Router - Page Not Found</title>
     <script type="text/javascript">
-      var pathSegmentsToKeep = 1;
-
+      // No need to manipulate the URL. Just leave it as is.
+      // This script ensures proper handling by the React Router app.
       var l = window.location;
-      l.replace(
-        l.protocol +
-          "//" +
-          l.hostname +
-          (l.port ? ":" + l.port : "") +
-          l.pathname
-            .split("/")
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join("/") +
-          "/" + // Keep the slash and do not add any replacement
-          l.pathname
-            .slice(1)
-            .split("/")
-            .slice(pathSegmentsToKeep)
-            .join("/") +
-          (l.search ? l.search : "") + // Only add search if it exists
-          l.hash
-      );
+      if (l.pathname === '/404') {
+        // Ensure the correct routing when accessing a 404 page.
+        // You can log or handle further actions for 404 here if needed.
+      }
     </script>
   </head>
-  <body></body>
+  <body>
+    <h1>404 - Page Not Found</h1>
+    <p>Sorry, the page you're looking for does not exist.</p>
+  </body>
 </html>
