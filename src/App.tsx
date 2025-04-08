@@ -1,9 +1,10 @@
-import { Route, Routes, HashRouter } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 
 import { Files, Home } from "./pages";
 import { File } from "./pages/files";
 import { SidebarProvider } from "./contexts/SidebarContext";
+import { HashRouter } from "react-router-dom"; // Import HashRouter
 
 const App = () => {
   useEffect(() => {
@@ -16,8 +17,7 @@ const App = () => {
 
   return (
     <SidebarProvider>
-      {/* Wrap with HashRouter */}
-      <HashRouter>
+      <HashRouter basename="/"> {/* Use HashRouter */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/main" element={<Files />}>
