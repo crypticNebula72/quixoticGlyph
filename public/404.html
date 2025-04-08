@@ -4,13 +4,8 @@
     <meta charset="utf-8" />
     <title>React Router</title>
     <script type="text/javascript">
-      var l = window.location;
-
-      // Check if the path doesn't end with a slash and add one
-      if (!l.pathname.endsWith('/')) {
-        // Append the slash at the end of the path and replace the URL
-        l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") + l.pathname + "/" + l.search + l.hash);
-      }
+      // Redirect to the homepage (abhaysinghal.com.np) upon refresh
+      window.location.replace("https://abhaysinghal.com.np");
     </script>
   </head>
   <body></body>
