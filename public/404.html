@@ -22,7 +22,7 @@
             .split("/")
             .slice(pathSegmentsToKeep)
             .join("/") +
-          (l.search ? "&" + l.search.slice(1) : "") +
+          (l.search ? l.search : "") +  // No modification to the search/query string
           l.hash,
       );
     </script>
