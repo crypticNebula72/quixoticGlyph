@@ -4,19 +4,8 @@
     <meta charset="utf-8" />
     <title>React Router</title>
     <script type="text/javascript">
-      var l = window.location;
-
-      // Only redirect if the pathname doesn't end with a slash
-      if (!l.pathname.endsWith('/')) {
-        l.replace(
-          l.protocol + "//" +
-          l.hostname +
-          (l.port ? ":" + l.port : "") +
-          l.pathname + "/" +  // ✅ add slash here
-          l.search +
-          l.hash
-        );
-      }
+      // Do nothing to avoid reload loop
+      console.log("404.html loaded — no redirect triggered.");
     </script>
   </head>
   <body></body>
