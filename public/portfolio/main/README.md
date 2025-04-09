@@ -1,6 +1,6 @@
 # 🧑‍💻 Abhay Singhal | AI Developer & Data Analyst
 
-![headshot](https://crypticnebula72.github.io/images/headshot.jpeg)
+![headshot](https://crypticNebula72.github.io/images/headshot.jpeg)
 
 📍 **Location:** Hetauda, Nepal  
 
@@ -67,4 +67,4 @@ Check out my full [resume](/main/resume.pdf) for more information!
 
 ## 🌐 Connect
 
-[![GitHub](https://crypticnebula72.github.io/images/github.svg)](https://github.com/abhaysinghal126) [![LinkedIn](https://crypticnebula72.github.io/images/linkedin.svg)](https://www.linkedin.com/in/abhay-singhal-971203312/) [![Email](https://crypticnebula72.github.io/images/gmail.svg)](mailto:abhaylogins@gmail.com/)
+[![GitHub](https://jadonlai.github.io/images/github.svg)](https://github.com/abhaysinghal126) [![LinkedIn](https://jadonlai.github.io/images/linkedin.svg)](https://www.linkedin.com/in/abhay-singhal-971203312/) [![Email](https://jadonlai.github.io/images/gmail.svg)](mailto:abhaylogins@gmail.com/)
