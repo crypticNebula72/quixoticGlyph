@@ -6,10 +6,16 @@
     <script type="text/javascript">
       var l = window.location;
 
-      // Check if the path doesn't end with a slash and add one
+      // Only redirect if the pathname doesn't end with a slash
       if (!l.pathname.endsWith('/')) {
-        // Append the slash at the end of the path and replace the URL
-        l.replace(l.protocol + "//" + l.hostname + (l.port ? ":" + l.port : "") + l.pathname + "" + l.search + l.hash);
+        l.replace(
+          l.protocol + "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname + "/" +  // ✅ add slash here
+          l.search +
+          l.hash
+        );
       }
     </script>
   </head>
