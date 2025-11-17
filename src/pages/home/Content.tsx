@@ -43,17 +43,17 @@ const ContentHeader = () => {
       </div>
       <ContentHeaderTag
         image="profession"
-        text="Data Scientist"
+        text="Student"
         styles="hidden lg:flex md:flex sm:flex"
       />
       <ContentHeaderTag
         image="star"
-        text="AI/ML and Full Stack Specialist"
+        text="Java and Full Stack Specialist"
         styles="hidden lg:flex md:flex"
       />
       <ContentHeaderTag
         image="location_pin"
-        text="Hetauda, Nepal"
+        text="Tampere, Finland"
         styles="hidden lg:flex"
       />
     </div>
