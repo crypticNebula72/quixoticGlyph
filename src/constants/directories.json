@@ -6,11 +6,11 @@
     "date": "2025 - present",
     "contents": [
       {
-            "name": "backend_intern_om_bhagawati.md",
-            "type": "file",
-            "file_type": "markdown",
-            "commit": "Backend Software Developer Intern | Internal Systems, Stock Management & Payroll Automation",
-            "date": "Jan 1, 2025 - Jun 31, 2025"
+        "name": "backend_intern_om_bhagawati.md",
+        "type": "file",
+        "file_type": "markdown",
+        "commit": "Backend Software Developer Intern | Internal Systems, Stock Management & Payroll Automation",
+        "date": "Jan 1, 2025 - Jun 31, 2025"
       }
     ]
   },
@@ -18,20 +18,50 @@
     "name": "projects",
     "type": "folder",
     "commit": "my personal and work projects",
-    "date": "2024 - present",
+    "date": "2020 - present",
     "contents": [
+      {
+        "name": "web_dev",
+        "type": "folder",
+        "commit": "web development projects",
+        "date": "2021-present",
+        "contents": [
+          {
+            "name": "flynote.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "FlyNote — AI Socratic Learning Platform",
+            "date": "2025"
+          }
+        ]
+      },
+      {
+        "name": "java_projects",
+        "type": "folder",
+        "commit": "java projects",
+        "date": "2023-present",
+        "contents": [
+          {
+            "name": "jplotica.md",
+            "type": "file",
+            "file_type": "markdown",
+            "commit": "JPlotica — Java Visualization Library",
+            "date": "2025"
+          }
+        ]
+      },
       {
         "name": "ds",
         "type": "folder",
         "commit": "data science projects",
-        "date": "2020-present",
+        "date": "2021-present",
         "contents": [
           {
-            "name": "Card_activation.pdf",
+            "name": "House_Prices.pdf",
             "type": "file",
             "file_type": "pdf",
-            "commit": "card activation prediction",
-            "date": "Jun 2020"
+            "commit": "prediction about house prices",
+            "date": "Jun 2023"
           }
         ]
       }
@@ -42,6 +72,6 @@
     "type": "file",
     "file_type": "markdown",
     "commit": "essentials of my portfolio",
-    "date": "November 31, 2025"
+    "date": "November 17, 2025"
   }
 ]

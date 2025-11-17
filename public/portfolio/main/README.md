@@ -39,9 +39,9 @@ Backend and Full-Stack Developer with hands-on experience building internal syst
 
 ## Key Projects
 
-* **Language Learning Model:** Python, TensorFlow, React  
-* **AI Sales Forecasting:** Python, Machine Learning  
-* **Imbalanced Data Handling:** Python, Scikit-learn  
+* **[JPlotica: Java Visualization Library](https://github.com/abhaysinghal126/jplotica)** — A custom Java-based data visualization library I’m actively developing, focused on clean rendering, intuitive APIs, and charting tools built from scratch.
+
+* **[FlyNote: AI Socratic Learning Platform](https://fly-note.singhalabhay.com.np/)** — A learning website that teaches through an AI-driven Socratic question-and-answer method, guiding users to understand concepts through reasoning rather than memorization.
 
 ---
 
@@ -54,4 +54,4 @@ Backend and Full-Stack Developer with hands-on experience building internal syst
 
 ## Connect
 
- [![Email](/assets/gmail.svg)](mailto:abhaylogins@gmail.com/) [![GitHub](/assets/github.svg)](https://github.com/abhaysinghal126) [![LinkedIn](/assets/linkedin.svg)](https://www.linkedin.com/in/abhay-singhal-971203312/)
+ [![Email](/assets/gmail.svg)](mailto:abhaysinghal696@gmail.com/) [![GitHub](/assets/github.svg)](https://github.com/abhaysinghal126) [![LinkedIn](/assets/linkedin.svg)](https://www.linkedin.com/in/abhay-singhal-971203312/)
